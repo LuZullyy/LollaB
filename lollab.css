@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+}
+
+header img {
+    width: 25%;
+    height: auto;
+    opacity: 0.5;
+    margin-right: 10px;
+    margin-left: 25%;
+}
+
+#menu-header ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#menu-header li {
+    float: left;
+    margin-bottom: 10px;
+    margin-inline: -50px;
+}
+
+#menu-header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+#menu-header li a:hover {
+    background-color: #111;
+}
+
+#img-destaque img {
+    width: 100%;
+    height: auto;
+}
+
+#bombado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-musicas {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media ul li img {
+    width: 24px;
+    height: 24px;
+}
